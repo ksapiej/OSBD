@@ -1,15 +1,17 @@
 package person;
 
-public class Worker implements Person {
+public abstract class Worker implements Person {
     private String name;
+    private int salary;
 
-    public Worker(String name){
+    public Worker(int salatry, String name){
         this.name = name;
-
+        this.salary= salatry;
     }
-    Worker(){}
 
-
+    public int getSalary() {
+        return salary;
+    }
     @Override
     public String getName() {
         return this.name;
