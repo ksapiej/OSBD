@@ -8,6 +8,12 @@ public class Student implements Person {
 
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 
     @Override
     public String getName() {
