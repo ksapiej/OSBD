@@ -15,6 +15,7 @@ public class DbAccess {
             // do something with db4o
             Student student1=new Student("Michael Schumacher");
             db.store(student1);
+            System.out.println("Stored "+student1.getName());
         }
     finally {
             db.close();
