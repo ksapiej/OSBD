@@ -14,4 +14,11 @@ public class BlueCollar extends Worker{
     public String getDepartment() {
         return department;
     }
+
+    @Override
+    public String toString() {
+        return "BlueCollar{" +
+                "department='" + department + '\'' +
+                '}';
+    }
 }

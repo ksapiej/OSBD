@@ -13,4 +13,11 @@ public class Lecturer extends Worker {
     public String getRank() {
         return rank;
     }
+
+    @Override
+    public String toString() {
+        return "Lecturer{" +
+                "rank='" + rank + '\'' +
+                '}';
+    }
 }

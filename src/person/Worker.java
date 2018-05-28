@@ -16,4 +16,12 @@ public abstract class Worker implements Person {
     public String getName() {
         return this.name;
     }
+
+    @Override
+    public String toString() {
+        return "Worker{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }
